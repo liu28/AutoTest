@@ -1,4 +1,9 @@
 version1
+合并冲突
 sdsd
 sds
 d
+=======
+version2
+、
+解决冲突 bab71ad7700382a07eb785606de83f99e8b984c2
