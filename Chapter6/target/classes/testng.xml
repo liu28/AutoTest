@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="IBU服务回归测试">
+    <test name="子渠道前置unRequest过滤测试">
+        <classes>
+            <class name="com.courser.extend.demo.TestMethodsDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                    <include name="test5"/>
+                    <include name="logDemo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <!-- <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/> -->
+        <!--<listener class-name="com.courser.extend.demo.ExtentTestNGIReporterListenerOld"/>-->
+        <listener class-name="com.courser.extend.demo.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
